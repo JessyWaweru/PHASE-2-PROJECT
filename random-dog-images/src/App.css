@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -105,8 +106,9 @@ button{
   background-color: #3f51b5;
   color:#fff;
   border:none;
-  border-radius: 5px;
+  border-radius: 200px;
   transition: all 0.2s ease-in-out;
+  font-size: 100px;
 }
 
 button:hover{
@@ -127,4 +129,20 @@ button:hover{
 .breed img{
   max-width: 100%;
   height:auto;
+}
+
+body{
+  background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/04/cute-dog-wallpaper-picture-021.jpg');
+  background-size: 750px;
+  background-repeat:no-repeat;
+ 
+  
+}
+
+.h1-1{
+  color:black;
+  text-align: center;
+  font-size: 100px;
+  font-family: cursive;
+  
 }

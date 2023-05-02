@@ -14,7 +14,7 @@ function Home (){
     },[])
     
 
-  const handleGenerateImage=()=>{
+  const adoptRescueDog=()=>{
         axios.get('https://dog.ceo/api/breeds/image/random')
         .then(res=>{
             const imageUrl=res.data.message
@@ -27,14 +27,14 @@ function Home (){
     return(
         <div className='home'>
             <h2>
-                Select a breed from our store or adopt a random pet:
+                Select a breed from our store or adopt our rescued pets:
             </h2>
             <div className='breeds'>
                 {breeds.map(breed=>(
                     <Link key={breed} to={`/breed/${breed}`}>{breed}</Link>
                 ))}
             </div>
-            <button onClick={handleGenerateImage}>GenerateImage</button>
+            <button onClick={adoptRescueDog}>ADOPT A RESCUE DOG HERE!!! </button>
         </div>
     )
 }
