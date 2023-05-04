@@ -8,7 +8,6 @@ import Home from './components/Home'
 import Breed from './components/Breed'
 import NotFound from './components/NotFound'
 
-
 function App() {
 return(
 <Router>

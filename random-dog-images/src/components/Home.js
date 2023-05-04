@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import {Link}from 'react-router-dom'
 import axios from 'axios'
-
 function Home (){
     const[breeds,setBreeds]=useState([])
     useEffect(()=>{
@@ -12,18 +11,15 @@ function Home (){
         })
         .catch(error=>{console.log(error)})
     },[])
-    
-
   const adoptRescueDog=()=>{
         axios.get('https://dog.ceo/api/breeds/image/random')
         .then(res=>{
-            // const imageUrl=res.data.message
-        
-            
+            const imageUrl=res.data.message
         })
         .catch(error=>{console.log(error)
-        }).
+        })
     }
+    
     return(
         <div className='home'>
          <h2 className='paragraph'>Select a breed from our store or adopt our rescued pets:</h2>
@@ -43,4 +39,5 @@ function Home (){
     )
 }
 
-export default Home
+
+export default Home;
