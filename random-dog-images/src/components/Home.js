@@ -1,10 +1,13 @@
+
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
+
 function Home() {
   const [breeds, setBreeds] = useState([]);
-  const [imageUrl, setImageUrl] = useState('');
+  
+
 
   useEffect(() => {
     axios
@@ -18,16 +21,22 @@ function Home() {
       });
   }, []);
 
-  const adoptRescueDog = () => {
-    axios
-      .get('https://dog.ceo/api/breeds/image/random')
-      .then((res) => {
-        const imageUrl = res.data.message;
-        setImageUrl(imageUrl); // Set the value of imageUrl to the component state
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+
+  const AdoptRescueDog = () => {
+    const [dogImageUrl, setDogImageUrl] = useState(null);
+
+    useEffect(() => {
+      fetch('https://dog.ceo/api/breeds/image/random')
+        .then((res) => res.json())
+        .then((data) => {
+          setDogImageUrl(data.message)
+          
+        })
+
+        .catch((error) => console.error(error));
+    }, []);
+
+    return dogImageUrl && <img src={dogImageUrl} alt="rescued dog" />;
   };
 
   return (
@@ -40,10 +49,28 @@ function Home() {
           </Link>
         ))}
       </div>
-      <button onClick={adoptRescueDog}>ADOPT A RESCUE DOG HERE!!!</button>
-      {imageUrl && <img src={imageUrl} alt="Rescue Dog" />} {/* Render the image if imageUrl is not empty */}
+
+      <button onClick={AdoptRescueDog}>ADOPT A RESCUE DOG HERE!!! </button>
     </div>
   );
+
 }
 
 export default Home;
+
+// added card
+
+<div class="card">
+  <div class="card-border-top">
+  </div>
+  <div class="img">
+  </div>
+  <span> Person</span>
+  <p class="job"> Job Title</p>
+  <button> Click
+  </button>
+</div>
+
+
+
+

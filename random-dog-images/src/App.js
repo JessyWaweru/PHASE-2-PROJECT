@@ -10,7 +10,6 @@ import NotFound from './components/NotFound';
 import SocialMedia from './components/SocialMedia';
 import BreedList from './components/BreedList';
 
-
 function App() {
 return(
 <Router>

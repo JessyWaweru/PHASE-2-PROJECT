@@ -10,7 +10,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: palevioletred;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,16 +37,22 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+
+body{
+  
+  background-color: moccasin;
+  background-size: cover;
+  margin:0; 
+  padding:0;
   font-family: sans-serif;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  display: flex;
+header{
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  display:flex;
+  
   justify-content: space-between;
   align-items: center;
   padding: 10px;
@@ -79,9 +85,14 @@ nav a:hover {
   gap: 10px;
 }
 
-.breeds a {
-  display: inline-flex;
-  padding: 50px 80px;
+
+.breeds a{
+  margin: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  display:inline-table;
+  padding: 30px 40px;
+
   background-color: #3f51b5;
   color: #fff;
   text-align: center;
@@ -125,15 +136,69 @@ button:hover {
   height: auto;
 }
 
-body {
-  background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/04/cute-dog-wallpaper-picture-021.jpg');
+
+body{
+  background-image: url('https://i.pinimg.com/236x/14/43/89/144389cf03021e976f65ef5191cdbffb.jpg');
+
   background-size: 750px;
   background-repeat: no-repeat;
 }
 
-.h1-1 {
-  color: black;
-  text-align: center;
-}
 
     
+
+.h1-1{
+  color: brown;
+
+  text-align: center;
+  font-size: 100px;
+  font-family: sans-serif;
+  
+}
+.pets{
+  color: rgb(255, 0, 200);
+}
+.paragraph{
+  min-height: 180px;
+  font-weight: bold;
+  color: red;
+}
+.button{
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfV8J81WdppeVX-UmVPDd_663-yOppF1jdJg&usqp=CAU"); */
+  color: palevioletred;
+  font-weight: 80px;
+  /* background-size: cover; */
+
+
+}
+footer{
+  background-color: darkslategrey;
+}
+
+.footer{
+  color: white;
+  background-color: #3f51b5;
+  text-align: center;
+  cursor: pointer;
+
+}
+.logo{
+  display: flex;
+}
+.style{
+  background-color: transparent;
+  margin: 5px;
+  /* padding: 10px; */
+  display: flex;
+}
+.content{
+  font-size: 30px;
+  color: brown;
+}
+.page{
+  color: red;
+  font-size: large;
+}
+
+
+
