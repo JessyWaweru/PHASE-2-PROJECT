@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import Card from './Card';
 
 
 function Home() {
@@ -42,6 +43,7 @@ function Home() {
   return (
     <div className="home">
       <h2>Select a breed from our store or adopt our rescued pets:</h2>
+      <Card />
       <div className="breeds">
         {breeds.map((breed) => (
           <Link key={breed} to={`/breed/${breed}`}>
@@ -58,18 +60,7 @@ function Home() {
 
 export default Home;
 
-// added card
 
-<div class="card">
-  <div class="card-border-top">
-  </div>
-  <div class="img">
-  </div>
-  <span> Person</span>
-  <p class="job"> Job Title</p>
-  <button> Click
-  </button>
-</div>
 
 
 
