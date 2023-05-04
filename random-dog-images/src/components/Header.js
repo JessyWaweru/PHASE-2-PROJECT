@@ -22,9 +22,9 @@ function Header(){
     <div>
       <p> OUR SERVICES</p>
     </div>
-    <div className="password">
-    <input type="password" placeholder="Donate"/>
-    </div>
+    {/* <div className="password"> */}
+    {/* <input type="password" placeholder="Donate"/> */}
+    {/* </div> */}
     
    </header>
    

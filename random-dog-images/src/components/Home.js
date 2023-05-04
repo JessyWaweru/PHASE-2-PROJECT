@@ -7,6 +7,8 @@ import Card from './Card';
 
 function Home() {
   const [breeds, setBreeds] = useState([]);
+  
+
 
   useEffect(() => {
     axios
@@ -19,6 +21,7 @@ function Home() {
         console.log(error);
       });
   }, []);
+
 
   const AdoptRescueDog = () => {
     const [dogImageUrl, setDogImageUrl] = useState(null);
@@ -48,6 +51,7 @@ function Home() {
           </Link>
         ))}
       </div>
+
       <button onClick={AdoptRescueDog}>ADOPT A RESCUE DOG HERE!!! </button>
     </div>
   );
@@ -55,6 +59,7 @@ function Home() {
 }
 
 export default Home;
+
 
 
 
