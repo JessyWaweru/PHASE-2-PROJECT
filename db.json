@@ -100,63 +100,63 @@
         "image": "https://example.com/rocky.jpg"
       },
       
-        {
-            "id": 10,
-            "name": "Loki",
-            "breed": "Siberian Husky",
-            "age": 2,
-            "gender": "Male",
-            "color": "Gray and White",
-            "weight": 55,
-            "height": 21,
-            "image": "https://example.com/loki.jpg"
-          },
-          {
-            "id": 11,
-            "name": "Maggie",
-            "breed": "Beagle",
-            "age": 5,
-            "gender": "Female",
-            "color": "Brown and White",
-            "weight": 25,
-            "height": 14,
-            "image": "https://example.com/maggie.jpg"
-          },
-          {
-            "id": 12,
-            "name": "Sam",
-            "breed": "Shih Tzu",
-            "age": 8,
-            "gender": "Male",
-            "color": "White and Brown",
-            "weight": 15,
-            "height": 10,
-            "image": "https://example.com/sam.jpg"
-          },
-          {
-            "id": 13,
-            "name": "Ruby",
-            "breed": "Pomeranian",
-            "age": 1,
-            "gender": "Female",
-            "color": "Orange",
-            "weight": 7,
-            "height": 8,
-            "image": "https://example.com/ruby.jpg"
-          },
-          {
-            "id": 14,
-            "name": "Cooper",
-            "breed": "Bernese Mountain Dog",
-            "age": 3,
-            "gender": "Male",
-            "color": "Black, White, and Brown",
-            "weight": 100,
-            "height": 27,
-            "image": "https://example.com/cooper.jpg"
-          }
-        ]
+      {
+        "id": 10,
+        "name": "Loki",
+        "breed": "Siberian Husky",
+        "age": 2,
+        "gender": "Male",
+        "color": "Gray and White",
+        "weight": 55,
+        "height": 21,
+        "image": "https://example.com/loki.jpg"
+     },
+     {
+        "id": 11,
+        "name": "Maggie",
+        "breed": "Beagle",
+        "age": 5,
+        "gender": "Female",
+        "color": "Brown and White",
+        "weight": 25,
+        "height": 14,
+        "image": "https://example.com/maggie.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Sam",
+        "breed": "Shih Tzu",
+        "age": 8,
+        "gender": "Male",
+        "color": "White and Brown",
+        "weight": 15,
+        "height": 10,
+        "image": "https://example.com/sam.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Ruby",
+        "breed": "Pomeranian",
+        "age": 1,
+        "gender": "Female",
+        "color": "Orange",
+        "weight": 7,
+        "height": 8,
+        "image": "https://example.com/ruby.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Cooper",
+        "breed": "Bernese Mountain Dog",
+        "age": 3,
+        "gender": "Male",
+        "color": "Black, White, and Brown",
+        "weight": 100,
+        "height": 27,
+        "image": "https://example.com/cooper.jpg"
       }
+    ]
+}
 
       
   

@@ -40,7 +40,7 @@ function Home() {
   return (
     <div className="home">
       <h2>Select a breed from our store or adopt our rescued pets:</h2>
-      
+      <Card />
       <div className="breeds">
         {breeds.map((breed) => (
           <Link key={breed} to={`/breed/${breed}`}>

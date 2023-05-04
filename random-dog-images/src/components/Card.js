@@ -1,26 +1,38 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Card = () => {
-    const [dogs, setDogs] = useState([]);
-}
+  const [dogs, setDogs] = useState([]);
 
-useEffect(() => {
+  useEffect(() => {
     fetch('http://localhost:3000/dogs')
-    .then((r) => r.json)
-    .then(data => setDogs(data))
-    .catch(error => console.error(error));
-}, []);
+      .then(response => response.json())
+      .then(data => {
+        setDogs(data);
+      })
+      .catch(error => console.error(error));
+  }, []);
 
-return (
-    <>
-    {dogs.map((dog) => (
-        <div className='card' key={dog.id} ></div>
-    ))}
-    
-    
-    
-    
-    
-    </>
-)
+  return (
+    <div>
+      {dogs.length > 0 ? (
+        dogs.map(dog => (
+          <div key={dog.id} className="card">
+            
+            <div className="img">
+              <img src={dog.image} alt={dog.breed} />
+            </div>
+            <p className="job">{dog.breed}</p>
+            <Link to={`/adopt/${dog.id}`} className="button">
+              Adopt Dog
+            </Link>
+          </div>
+        ))
+      ) : (
+        <p>Loading...</p>
+      )}
+    </div>
+  );
+};
+
+export default Card;
