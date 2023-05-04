@@ -7,8 +7,8 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Breed from './components/Breed';
 import NotFound from './components/NotFound';
-import SocialMedia from './components/SocialMedia';
-import BreedList from './components/BreedList';
+
+
 
 function App() {
 return(
