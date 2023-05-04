@@ -1,0 +1,165 @@
+{
+    "dogs": [
+      {
+        "id": 1,
+        "name": "Buddy",
+        "breed": "Golden Retriever",
+        "age": 5,
+        "gender": "Male",
+        "color": "Golden",
+        "weight": 75,
+        "height": 24,
+        "image": "https://i.pinimg.com/236x/1c/80/7e/1c807eb83d6e24c7dfe03d8bc97c43bf.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Luna",
+        "breed": "Labrador Retriever",
+        "age": 3,
+        "gender": "Female",
+        "color": "Black",
+        "weight": 65,
+        "height": 23,
+        "image": "https://i.pinimg.com/236x/92/90/2a/92902ae2ebcb37f78f6ce3ab020e2a0d.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Max",
+        "breed": "German Shepherd",
+        "age": 4,
+        "gender": "Male",
+        "color": "Black and Tan",
+        "weight": 80,
+        "height": 25,
+        "image": "https://i.pinimg.com/236x/63/e8/88/63e888a1da8bc5c3528c6e534450dac7.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Sadie",
+        "breed": "Australian Shepherd",
+        "age": 2,
+        "gender": "Female",
+        "color": "Blue Merle",
+        "weight": 50,
+        "height": 21,
+        "image": "https://i.pinimg.com/236x/a2/4e/27/a24e2763ee4dd93f3a0838900fefa16b.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Charlie",
+        "breed": "Cocker Spaniel",
+        "age": 7,
+        "gender": "Male",
+        "color": "Black",
+        "weight": 35,
+        "height": 16,
+        "image": "https://i.pinimg.com/236x/76/28/4e/76284e1db998e09d9dfdbbb0353ef6af.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Roxy",
+        "breed": "Poodle",
+        "age": 1,
+        "gender": "Female",
+        "color": "White",
+        "weight": 10,
+        "height": 12,
+        "image": "https://i.pinimg.com/236x/f8/84/a5/f884a5fa77a5f480da8bdc2ec3c5ea35.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Zeus",
+        "breed": "Rottweiler",
+        "age": 6,
+        "gender": "Male",
+        "color": "Black and Brown",
+        "weight": 90,
+        "height": 28,
+        "image": "https://i.pinimg.com/236x/8e/10/d6/8e10d637064cbf7a839c21c57bf0a884.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Daisy",
+        "breed": "Bulldog",
+        "age": 4,
+        "gender": "Female",
+        "color": "White and Brown",
+        "weight": 55,
+        "height": 20,
+        "image": "https://i.pinimg.com/564x/00/8f/82/008f829b94503c07d0cb7304c26268da.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Rocky",
+        "breed": "Boxer",
+        "age": 3,
+        "gender": "Male",
+        "color": "Brown",
+        "weight": 70,
+        "height": 22,
+        "image": "https://i.pinimg.com/564x/5b/21/c3/5b21c3d62cff487093c297a7ffea0b91.jpg"
+      },
+        {
+            "id": 10,
+            "name": "Loki",
+            "breed": "Siberian Husky",
+            "age": 2,
+            "gender": "Male",
+            "color": "Gray and White",
+            "weight": 55,
+            "height": 21,
+            "image": "https://i.pinimg.com/236x/23/8b/8b/238b8b86ee007a873ea4288976c5c1d0.jpg"
+          },
+          {
+            "id": 11,
+            "name": "Maggie",
+            "breed": "Beagle",
+            "age": 5,
+            "gender": "Female",
+            "color": "Brown and White",
+            "weight": 25,
+            "height": 14,
+            "image": "https://i.pinimg.com/564x/9f/77/69/9f776960b5fe247c5cd748caaf53ccd8.jpg"
+          },
+          {
+            "id": 12,
+            "name": "Sam",
+            "breed": "Shih Tzu",
+            "age": 8,
+            "gender": "Male",
+            "color": "White and Brown",
+            "weight": 15,
+            "height": 10,
+            "image": "https://i.pinimg.com/564x/9f/d6/c9/9fd6c9f86834b014f3c3592f3b18d27d.jpg"
+          },
+          {
+            "id": 13,
+            "name": "Ruby",
+            "breed": "Pomeranian",
+            "age": 1,
+            "gender": "Female",
+            "color": "Orange",
+            "weight": 7,
+            "height": 8,
+            "image": "https://example.com/ruby.jpg"
+          },
+          {
+            "id": 14,
+            "name": "Cooper",
+            "breed": "Bernese Mountain Dog",
+            "age": 3,
+            "gender": "Male",
+            "color": "Black, White, and Brown",
+            "weight": 100,
+            "height": 27,
+            "image": "https://i.pinimg.com/564x/21/d1/d8/21d1d80626d2d44d7f156cdf9fc215c5.jpg"
+          }
+        ]
+      }
+
+
+
+
+
+
+
