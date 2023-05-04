@@ -12,18 +12,22 @@ function Home (){
         })
         .catch(error=>{console.log(error)})
     },[])
-    
-
-  const adoptRescueDog=()=>{
+    const adoptRescueDog=()=>{
         axios.get('https://dog.ceo/api/breeds/image/random')
         .then(res=>{
+    
+    
             const imageUrl=res.data.message
+            const img=document.createElement('img')
+            img.src=imageUrl
+            img.alt='rescue-dog'
+            document.body.appendChild(img)
         
+        }
             
-        })
+        )
         .catch(error=>{console.log(error)
-        })
-    }
+        })}
     return(
         <div className='home'>
             <h2>
@@ -34,7 +38,7 @@ function Home (){
                     <Link key={breed} to={`/breed/${breed}`}>{breed}</Link>
                 ))}
             </div>
-            <button onClick={adoptRescueDog}>ADOPT A RESCUE DOG HERE!!! </button>
+            <button onClick={adoptRescueDog}>WANT TO ADOPT ONE OF OUR RESCUE DOGS ?CLICK HERE</button>
         </div>
     )
 }
