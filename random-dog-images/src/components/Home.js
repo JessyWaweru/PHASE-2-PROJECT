@@ -38,7 +38,7 @@ function Home (){
                     <Link key={breed} to={`/breed/${breed}`}>{breed}</Link>
                 ))}
             </div>
-            <button onClick={adoptRescueDog}>WANT TO ADOPT ONE OF OUR RESCUE DOGS ?CLICK HERE</button>
+            <button onClick={adoptRescueDog}>WANT TO ADOPT ONE OF OUR RESCUE DOGS ?CLICK HERE+</button>
         </div>
     )
 }
