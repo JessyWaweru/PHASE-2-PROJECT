@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
@@ -9,6 +10,7 @@ function Home() {
   useEffect(() => {
     axios
       .get("https://dog.ceo/api/breeds/list/all")
+
       .then((res) => {
         const breeds = Object.keys(res.data.message);
         setBreeds(breeds);
@@ -17,7 +19,7 @@ function Home() {
         console.log(error);
       });
   }, []);
-
+  
   const adoptRescueDog = () => {
     axios
       .get("https://dog.ceo/api/breeds/image/random")
@@ -61,4 +63,4 @@ function Home() {
   );
 }
 
-export default Home;
+

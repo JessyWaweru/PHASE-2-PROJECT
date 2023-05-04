@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -54,6 +55,7 @@ function App() {
       <Footer />
     </Router>
   );
+
 }
 
 export default App;
