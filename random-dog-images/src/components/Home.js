@@ -1,5 +1,4 @@
 
-
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -7,6 +6,8 @@ import axios from 'axios';
 
 function Home() {
   const [breeds, setBreeds] = useState([]);
+  
+
 
   useEffect(() => {
     axios
@@ -19,6 +20,7 @@ function Home() {
         console.log(error);
       });
   }, []);
+
 
   const AdoptRescueDog = () => {
     const [dogImageUrl, setDogImageUrl] = useState(null);
@@ -47,6 +49,7 @@ function Home() {
           </Link>
         ))}
       </div>
+
       <button onClick={AdoptRescueDog}>ADOPT A RESCUE DOG HERE!!! </button>
     </div>
   );
@@ -67,6 +70,7 @@ export default Home;
   <button> Click
   </button>
 </div>
+
 
 
 
