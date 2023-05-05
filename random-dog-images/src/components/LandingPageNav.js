@@ -10,9 +10,6 @@ export default function LandingPageNav() {
           <Link className="navbar-brand" to="/">
             Home
           </Link>
-          <Link className="navbar-brand" to="/services">OUR SERVICES</Link>
-          <Link className="navbar-brand" to="help">HOW TO HELP</Link>
-          <Link className="navbar-brand" to="/about">ABOUT</Link>
           <Link className="navbar-brand" to="/register">
             Register
           </Link>

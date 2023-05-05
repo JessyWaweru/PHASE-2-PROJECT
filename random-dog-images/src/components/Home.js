@@ -20,20 +20,7 @@ function Home() {
       });
   }, []);
   
-  const adoptRescueDog = () => {
-    axios
-      .get("https://dog.ceo/api/breeds/image/random")
-      .then((res) => {
-        const imageUrl = res.data.message;
-        const img=document.createElement("img")
-        img.src=imageUrl
-        img.alt="rescue-dog"
-        document.body.appendChild(img)
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
+  
 
   return (
     <div className="home" style={{ marginTop: "3em", marginBottom: "3em" }}>
@@ -56,9 +43,7 @@ function Home() {
           </Link>
         ))}
       </div>
-      <button className="button" onClick={adoptRescueDog}>
-        Adopt a Rescued Pet
-      </button>
+      
     </div>
   );
 }
