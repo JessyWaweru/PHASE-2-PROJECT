@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-
+import Card from "./Card";
 function Breed() {
   const { breed } = useParams();
   const [image, setImage] = useState("");
@@ -17,12 +17,16 @@ function Breed() {
         console.log(error);
       });
   }, [breed]);
+  
 
+   
+  
   return (
     <div className="card" style={{ width: "18rem" }}>
       <div className="card-body">
         <h2 className="card-title">Adopt a {breed}</h2>
         <img className="card-img-top" src={image} alt={breed} />
+      <Card/>
       </div>
     </div>
   );

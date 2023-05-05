@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logoutt from "./Logoutt";
 
 export default function HomeNavBar() {
   return (
@@ -11,8 +12,10 @@ export default function HomeNavBar() {
         <div className="container-fluid">
           <Link className="navbar-brand" to="/home">Home</Link>
 
-          <Link  className="navbar-brand" to="/pets">PET</Link>
-          <Link className="navbar-brand" to="/">LOGOUT</Link>
+          <Link  className="navbar-brand" to="/cart">CART</Link>
+          <Link className="navbar-brand" to="/">
+           ||LOGOUT|| <Logoutt/>
+          </Link>
           <form class="d-flex" role="search">
             <input
               style={{height: "2em"}}

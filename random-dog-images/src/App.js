@@ -16,6 +16,7 @@ import Register from "./components/auth/Register";
 import LandingPageNav from "./components/LandingPageNav";
 import HomeNavBar from "./components/HomePageNav";
 import LandingPage from "./components/Landing";
+import Cart from './components/Cart'
 import "./App.css";
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <Route exact path="/home" component={Home} />
           <Route path="/breed/:breed" component={Breed} />
           <Route path="/login" component={Login} />
+        <Route path='/cart' component={Cart}/>
           <Route path="/register" component={Register} />
           <Route component={NotFound} />
         </Switch>
